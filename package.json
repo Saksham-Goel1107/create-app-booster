@@ -1,0 +1,35 @@
+{
+  "name": "create-app-booster",
+  "version": "1.1.0",
+  "description": "CLI to create Vite React or Next.js projects with Husky and GitHub CI/CD pre-configured",
+  "main": "src/index.js",
+  "bin": {
+    "create-app-booster": "./src/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vite",
+    "react",
+    "nextjs",
+    "husky",
+    "github",
+    "ci-cd",
+    "snyk",
+    "npm",
+    "pnpm",
+    "scaffolding"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^11.1.0",
+    "execa": "^8.0.1",
+    "fs-extra": "^11.1.1",
+    "inquirer": "^9.2.10",
+    "ora": "^7.0.1"
+  }
+}

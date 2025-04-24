@@ -1,0 +1,14 @@
+{
+  "build": {
+    "command": "npm run build",
+    "publish": "dist",
+    "environment": {
+      "NODE_VERSION": "18"
+    }
+  },
+  "dev": {
+    "command": "npm run dev",
+    "port": 3000,
+    "autoLaunch": true
+  }
+}
